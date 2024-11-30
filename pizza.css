@@ -1,0 +1,266 @@
+*{
+    margin: 0;
+    font-family:cursive;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 179, 93);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:chocolate;
+    padding: 0.5rem 1rem;
+    color: white;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    background-color:rgb(133, 58, 4);
+    border-radius: 5px;
+  }
+  
+  /* Dropdown Menu */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 150px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px rgba…
+  }
+#HEAD{
+    margin-top: 20px;
+    text-align: center;
+    font-size:3rem;
+    font-weight: 700;
+    animation-duration: 1s;
+    
+}
+.comment{
+    text-align: center;
+    font-size:2rem;
+}
+
+
+.paragraph{
+    font-size:1.7rem;
+    font-family:cursive;
+    text-align: center;
+   
+}
+.carousel-item img {
+  height: 500px;
+  object-fit:cover;
+  width:800px;
+}
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa;
+} */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Box Container */
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Individual Box */
+.box {
+  background: #fff;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Caption */
+.box h3 {
+  font-size: 1.5rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+/* Button */
+.box button {
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor:all-scroll;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.box button:hover {
+  background-color: #e64a19;
+}
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 40px 20px;
+}
+
+/* Footer container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* Footer sections */
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* Footer headings */
+.footer-section h3, .footer-section h4 {
+  color: #ff7f50;
+  margin-bottom: 10px;
+}
+
+/* Footer links */
+.footer-section ul {
+  list-style-type: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+  color: #ff7f50;
+}
+
+/* Footer social media */
+.social-media ul {
+  display: flex;
+  gap: 15px;
+}
+
+.social-media ul li {
+  list-style-type: none;
+}
+
+.social-media .social-icon {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.social-media .social-icon:hover {
+  color: #ff7f50;
+}
+
+/* Footer bottom */
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .footer-container {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .footer-section {
+      flex: none;
+      margin-right: 0;
+  }
+ .container{
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+ }
+  .navbar{
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    text-align: center;
+  }
+  .paragraph{
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+}
